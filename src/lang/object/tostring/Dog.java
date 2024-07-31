@@ -8,6 +8,8 @@ public class Dog {
         this.dogName = dogName;
         this.age = age;
     }
+
+    //toString() 메서드 재정의
     @Override
     public String toString(){
         return "Dog{" + "dogName '" + dogName + '\'' + ", age = " + age + '}';

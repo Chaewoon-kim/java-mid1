@@ -8,7 +8,7 @@ public class RefMain2 {
         System.out.println("a = " + a);
         System.out.println("b = " + b);
 
-        //b.setValue("Busan"); value 값이 final이기 때문에 앞에서 a의 참조값을 받아왔기 때문에, 더는 변경할 수 없음
+        //b.setValue("Busan"); value 값이 final, 앞에서 a의 참조값을 받아왔기 때문에, 더는 변경할 수 없음
         b = new ImmutableAddress("부산"); //값을 변경하기 위해 [새로운 객체 생성]
         System.out.println("Busan -> b");
         System.out.println("a = " + a);
